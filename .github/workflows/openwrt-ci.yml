@@ -12,8 +12,8 @@ name: OpenWrt-CI 全功能自动lede x86 64位
 on:
   schedule:
     - cron: 0 20 * * *
-  push:
-    branches: 
+#  push:
+#  branches: 
       - master
 
 jobs:
